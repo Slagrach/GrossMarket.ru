@@ -1265,8 +1265,12 @@ body.lock {
   }
 }
 @supports (-webkit-appearance:none){
-.item1{background:url("../img/baker.webp") center no-repeat}
-.item2{background:url("../img/expert.webp") center no-repeat}
+.item1{background-image:url("../img/baker.webp");
+background-position: center;
+background-repeat: no-repeat;}
+.item2{background-image:url("../img/expert.webp");
+background-position: center;
+background-repeat: no-repeat;}
 .slick-prev{background:url("../img/icons/left.webp") 0 0/100% no-repeat}
 .slick-next{background:url("../img/icons/right.webp") 0 0/100% no-repeat}
 }
