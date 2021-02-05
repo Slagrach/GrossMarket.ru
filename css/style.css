@@ -296,11 +296,15 @@ body.lock {
 }
 
 .item1 {
-  background: url("../img/baker.png") center no-repeat;
+  background-image: url("../img/baker.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .item2 {
-  background: url("../img/expert.png") center no-repeat;
+  background-image: url("../img/expert.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slick-list {
